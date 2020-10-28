@@ -1,0 +1,49 @@
+body {
+    width: 100vw;
+}
+
+.nav {
+    float:right;
+    margin-top:40px;
+}
+
+#name {
+    text-align: bottom;
+    margin-top: 27px;
+    margin-left: 10px;
+}
+
+#header {
+    background-color: rgba(240,240,240, 0.5);
+}
+
+#section2 h1, #section2 p{
+    text-align: center;
+}
+
+.section{
+    min-height: 500px;
+    
+}
+
+.wrap{
+
+    background-color:rgba(200,200,200,0.5);
+    border-radius: 20px;
+    padding:30px;
+    width: 70%;
+    margin:auto;
+}
+
+#section1 .wrap {
+
+}
+#section1{
+    background-image:url('../imgs/bewitching-elise.jpg');
+    background-size:cover;
+}
+
+#section3{
+    background-image:url('../imgs/death-blossom-khazix.jpg');
+    background-size:cover;
+}
