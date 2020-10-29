@@ -38,6 +38,7 @@ body {
     padding-top: 1px;
     margin-top: 1px;
     
+    
 }
 
 .wrap{
@@ -49,29 +50,58 @@ body {
 .wrap1{
     color:white;
     background-color:rgba(60,60,60,0.5);
-    margin-right: 350px;
-    margin-top: 250px;
-    margin-left: 100px;
-    max-width:250px;
+    max-width:100%;
+    max-height:50%
 
 }
 
-#section1 .wrap {
-
-}
 #section1{
     background-image:url('../imgs/bewitching-elise.jpg');
     background-size:cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-top:0;
+    min-width:100%;
+
 }
+
+
 
 #section2 img {
     height: auto;
     width: auto;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 100%;
+    max-height: 100%;
     
 }
 
 #section2 h3 {
     padding: 10px;
+}
+
+.about-content h1 {
+    margin-top:20px;
+
+}
+
+#section1AB {
+    background-image:url("../imgs/death-blossom-khazix.jpg");
+    background-size:cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-width:100%;
+    min-height: 500px;
+    overflow: hidden;
+    padding-top: 1px;
+    margin-top: 0;
+}
+
+#firstP {
+    margin-top:100px;
+}
+
+.about-content p {
+    margin: 20px;
+    margin-top:5px;
+    font-size: large;
 }
