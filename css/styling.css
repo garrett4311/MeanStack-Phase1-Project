@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 body {
     width: 100vw;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .nav {
     float:right;
     margin-top:40px;
+    
+}
+
+.nav a{
+    color: black;
 }
 
 #name {
@@ -13,8 +20,12 @@ body {
     margin-left: 10px;
 }
 
+#name-tag {
+    margin-left: 27px;
+}
+
 #header {
-    background-color: rgba(240,240,240, 0.5);
+    background-color: rgba(158, 140, 232, 0.4);
 }
 
 #section2 h1, #section2 p{
@@ -23,16 +34,26 @@ body {
 
 .section{
     min-height: 500px;
+    overflow: hidden;
+    padding-top: 1px;
+    margin-top: 1px;
     
 }
 
 .wrap{
 
     background-color:rgba(200,200,200,0.5);
-    border-radius: 20px;
-    padding:30px;
-    width: 70%;
-    margin:auto;
+    margin-right: 400px;
+}
+
+.wrap1{
+    color:white;
+    background-color:rgba(60,60,60,0.5);
+    margin-right: 350px;
+    margin-top: 250px;
+    margin-left: 100px;
+    max-width:250px;
+
 }
 
 #section1 .wrap {
@@ -43,7 +64,14 @@ body {
     background-size:cover;
 }
 
-#section3{
-    background-image:url('../imgs/death-blossom-khazix.jpg');
-    background-size:cover;
+#section2 img {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+    
+}
+
+#section2 h3 {
+    padding: 10px;
 }
