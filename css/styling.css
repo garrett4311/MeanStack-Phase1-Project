@@ -95,15 +95,25 @@ body {
     padding-top: 1px;
     margin-top: 0;
 }
-
-#firstP {
-    margin-top:100px;
+#abContent {
+    margin-top: 40px;
 }
-
-.about-content p {
-    margin: 20px;
-    margin-top:5px;
-    font-size: large;
+#opggdiv {
+    height: 500px;
+}
+#opgg a {
+    color:blue;
+}
+#opgg a:hover {
+    color:green;
+}
+ #opggiframe {
+    height: 100%;
+    width: 100%;
+    border: 2px solid blue;
+}
+#firstP, #secondP {
+    font-size: 150%;
 }
 
 #contact {
@@ -173,6 +183,7 @@ article {
 #newArticle {
     height: 200px;
     width: 400px;
+    margin-top: 10px;
 }
 #addSection {
     margin-top: 10px;
